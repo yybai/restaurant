@@ -1,0 +1,351 @@
+@font-face {
+	font-family : Nexa_Book;
+	src:url(../fonts/Nexa_Book-webfont.woff2);
+}
+@font-face {
+	font-family : Nexa_Heavy;
+	src:url(../fonts/Nexa_Heavy-webfont.woff2);
+}
+@font-face{
+	font-family:yueyuan;
+	src:url(../fonts/悦园改小.ttf);
+}
+.logo{
+	font-family: Nexa_Heavy;
+	font-weight: bold;
+	color: #ff605b;
+	font-size: 21px;
+	
+	margin-top: 30px;
+	margin-left: 25px;
+}
+
+.backgroundImage {
+	width: 100%;
+	height: 100%;
+	position: fixed;  
+	z-index: -1;
+
+}
+
+.navbar{
+	font-size: 23px;
+	margin-top: 26px;
+	padding-bottom: 20px;
+	font-family: yueyuan;
+	font-weight: bold;
+}
+.submit_button{
+	margin-top: 25px;
+	margin-left: 31px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+nav .logo{
+	display: inline-block;
+
+	
+}
+
+nav ul{
+	display: inline-block;
+	margin-right: 1;
+	margin-top: 1;
+	font-size: 25px;
+	font-family: Brandon;
+	font-weight: bold;
+
+}
+
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+a{
+	color:black;
+}
+.nodec{
+	text-decoration: none;
+}
+
+.login_form{
+	border: 1px solid pink; 
+	text-align: center; 
+	background-color: #ff605b; 
+	width: 250px; 
+	border-radius: 30px; 
+	font-family: Nexa_Heavy;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin:auto;
+	margin-top: 1000px;
+
+}
+
+.input_box{
+	width: 200px;
+	height: 30px;
+	border:0px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	outline:none;
+}
+.form_submit_botton{
+	width: 202px;
+	height: 33px;
+	border: 2px solid white;
+	background-color: #ff605b;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	color: white;
+
+}
+
+a:visited{
+	color: black;
+}
+
+
+
+
+.nav_index{
+	
+	height: 188px;
+	background-color: rgba(207 ,85 ,85 ,0.8);
+}
+.backgroundImage_index{
+	z-index: -1;
+	position: fixed;  
+	width: 100%;
+	background-repeat: repeat;
+}
+.div1{
+	width:100%;
+	height:200px;
+}
+.div2{
+	height:200px;
+	background-color: rgba(207 ,85 ,85 ,0.8);
+}
+.div3{
+	height:200px;
+}
+.div4{
+	height:400px;
+	background-color: rgba(207 ,85 ,85 ,0.8);
+
+}
+.icon1{
+	margin-top: 20px;
+	margin-left: 178px;
+	height:60px;
+}
+.ui1{
+	height: 430px;
+	margin-top: -280px;
+	margin-left: 65%;
+	
+}
+
+.ui2{
+	height: 430px;
+	margin-top: -43px;
+	margin-left: 125px;
+	
+
+}
+.icon2{
+	margin-top: 95px;
+	padding-right: 20%;
+	height:70px;
+	float: right;
+}
+.apple{
+	height: 70px;
+	margin-left: 143px;
+}
+.android{
+	height: 70px;
+	margin-left: 98px;
+	margin-top: 39px;
+}
+.footer{
+	background-color: rgba(54,53,52,0.9);
+	height: 130px;
+	margin-top: -142px;
+}
+
+.foot_icon{
+	
+	padding-right: 25px;
+	height: 30px;
+}
+
+
+
+
+.food-box{
+	display: inline-block;
+	margin-right: 9px;
+	margin-left: 13px;
+	margin-bottom: 5px;
+	width: 240px;
+	height: 240px;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	opacity: 1;
+	position: relative;
+
+
+}
+.food-box:hover{
+	opacity: 0.6;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+
+
+}
+.food-box h5{
+	font-size: 31px;
+	margin:30px 0px 50px 0;
+	z-index: 2;
+	position: inherit;
+}
+.food-box h6{
+	font-size: 20px;
+	z-index: 2;
+	position: inherit;
+}
+.food-box p{
+	font-size: 16px;
+	z-index: 2;
+	position: inherit;
+	margin-top: -20px;
+
+}
+.food-container{
+	max-width: 800px;
+	min-width: 800px;
+}
+.black-cover{
+	background-color:black;
+	width: 100%;
+	height: 100%; 
+	opacity: 0.2;
+	position: absolute; 
+	z-index:1;
+}
+
+.box-1{
+	background-image: url("../img/餐厅1.jpg");
+}
+
+
+.box-2{
+	background-image: url("../img/餐厅2.jpg");
+}
+.box-3{
+	background-image: url("../img/餐厅3.jpg");
+}
+.box-4{
+	background-image: url("../img/餐厅4.jpg");
+}
+.box-5{
+	background-image: url("../img/餐厅5.jpg");
+}
+.box-6{
+	background-image: url("../img/餐厅6.jpg");
+}
+.box-7{
+	background-image: url("../img/餐厅7.jpg");
+}
+.box-8{
+	background-image: url("../img/餐厅8.jpg");
+}
+.box-9{
+	background-image: url("../img/餐厅9.jpg");
+}
+.about-body{
+	background-image: url("../img/bg-img.png");
+}
+.add-body{
+	background-image: url("../img/bg-img.png");
+}
+
+.input-box{
+	width:400px;
+	margin-bottom: 20px;
+	outline:none;
+	height: 30px;
+	border-radius: 10px;
+	border:2px solid gray;
+	padding-left: 10px;
+}
+
+.for-form{
+	max-width: 1000px;
+	
+	
+}
+.create-restaurant{
+	max-width: 450px;
+	margin:auto;
+	margin-top: 50px;
+
+	
+}
+.submit-button{
+	background-color: blue;
+	border-radius: 30px;
+	color: white;
+	border: 0px;
+	height: 30px;
+	width: 100px;
+	margin-left:55px;
+	margin-top: 35px;
+}
+.title{
+	margin:auto;
+	max-width: 400px;
+}
+.about-footer{
+	background-color: rgba(54,53,52,0.7);
+	height: 130px;
+	margin-top: 50px;
+
+}
+.footer-img{
+	max-width: 400px;
+	float: right;
+	margin-top: -78px;
+	padding-right: 60px;
+}
+.footer-img img{
+	width: 45px;
+	padding-right: 10px;
+}
+.about-footer-top{
+	color: white;
+	font-family: Nexa_Book;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+
+
+
