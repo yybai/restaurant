@@ -2,12 +2,24 @@
 <html>
 <head>
 	<title>IM HUNGRY</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
 </head>
 <body style="min-width: 790px; max-width:800px; margin:auto;" class="about-body">
+	<canvas id="canvas" style= "top:-370px; min-width: 790px; z-index: -1;"></canvas>
 	<nav class="navbar">
 		<div class="logo left" >
 			I'M HUNGRY
+
+		</div>
+		<div class="emoji  emoji--like" >
+	  		<div class="emoji__hand" >
+	    		<div class="emoji__thumb"></div>
+	  		</div>
 		</div>
 
 
@@ -30,88 +42,17 @@
 		<div style="clear: both;"></div>
 	</nav>
 
-	<h1 style="text-align: center;font-family:yueyuan;font-weight: bold;font-size: 60px;">
-		餐 厅 列 表
-	</h1>
+	<input type = "hidden" value = "餐 厅 列 表" id="message" style="text-align: center;font-family:yueyuan;font-weight: bold;font-size: 60px;">
+		
+	
 
 	<div class = "food-container">
-		<a href="">
-			<div class = "food-box box-1">
-				<div class="black-cover"></div>
 
-				<h5>111</h5>
-				<h6>111</h6>
-				<p>111</p>
-
-
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-2">
-				<div class="black-cover"></div>
-				<h5>222</h5>
-				<h6>222</h6>
-				<p>222</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-3">
-				<div class="black-cover"></div>
-				<h5>333</h5>
-				<h6>333</h6>
-				<p>333</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-4">
-				<div class="black-cover"></div>
-				<h5>444</h5>
-				<h6>444</h6>
-				<p>444</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-5">
-				<div class="black-cover"></div>
-				<h5>555</h5>
-				<h6>555</h6>
-				<p>555</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-6">
-				<div class="black-cover"></div>
-				<h5>666</h5>
-				<h6>666</h6>
-				<p>666</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-7">
-				<div class="black-cover"></div>
-				<h5>777</h5>
-				<h6>777</h6>
-				<p>777</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-8">
-				<div class="black-cover"></div>
-				<h5>888</h5>
-				<h6>888</h6>
-				<p>888</p>
-			</div>
-		</a>
-		<a href="">
-			<div class = "food-box box-9">
-				<div class="black-cover"></div>
-				<h5>999</h5>
-				<h6>999</h6>
-				<p>999</p>
-			</div>
-		</a>
 	</div>
-	
+
+
+
+	<a href="add.html">Add restaurant</a>
 
 
 
@@ -131,6 +72,11 @@
 			<img src="img/instagram.png">
 		</div>
 	</div>
+
+
+	<script  src="js/index.js"></script>
+	<script  src="js/food.js"></script>
+	<script src="js/search.js"></script>
 
 
 
